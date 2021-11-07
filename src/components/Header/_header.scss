@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-image: url(../../assets/img/mdina.jpg);
+  background-position: center;
+  box-shadow: 0 0 0 2000px inset #ff3838bd;
+  color: white;
+}
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 20px;
+  height: 8vh;
+}
+.logo {
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.navigations {
+  padding: 10px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
