@@ -36,8 +36,8 @@ const Header = () => {
         <h2 className="s-line">OUTSIDE</h2>
         <h3 className="t-line">OF THE BOX</h3>
         <button>READ MORE</button>
+        <img className="soldier" src={img3} alt="soldier" />
       </main>
-      <img className="soldier" src={img3} alt="soldier" />
     </div>
   );
 };

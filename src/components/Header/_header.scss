@@ -10,7 +10,7 @@
   height: 800px;
   background-image: url(../../assets/img/mdina.jpg);
   background-position: center;
-  box-shadow: 0 0 0 2000px inset #ff3838bd;
+  box-shadow: 0 0 0 2000px inset #c21826c2;
   color: white;
   & > .topbar {
     display: flex;
@@ -21,7 +21,7 @@
     align-items: center;
     & > .logo {
       // margin-top: 5px;
-      font-size: x-large;
+      font-size: 30px;
       font-weight: bold;
       font-family: sans-serif;
     }
@@ -91,10 +91,6 @@
       right: 0;
     }
   }
-}
-
-.link {
-  display: flex;
 }
 
 /* width */
