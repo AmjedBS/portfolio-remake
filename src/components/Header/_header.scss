@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Work Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,7 @@
       font-family: sans-serif;
     }
     & > .menu {
+      display: flex;
       & > .nav-item {
         margin-left: 10px;
         font-size: 15px;
@@ -46,35 +51,50 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 65px;
     & > .f-line {
       font-size: 124px;
+      margin: 0;
+      margin-bottom: -25px;
     }
     & > .s-line {
+      font-size: 130px;
+      margin: 0;
+      margin-bottom: -4px;
     }
     & > .t-line {
+      margin: 0;
+      font-size: 65px;
+      margin-bottom: 45px;
+    }
+    & > button {
+      background-color: #ffffff;
+      border: none;
+      color: #322b2b;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 0;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 25px 25px 25px 25px;
+      font-weight: bold;
+    }
+    & > .soldier {
+      width: 350px;
+      height: auto;
+      position: absolute;
+      top: 380px;
+      right: 0;
     }
   }
 }
 
 .link {
   display: flex;
-}
-.menu {
-  display: flex;
-}
-button {
-  background-color: #ffffff;
-  border: none;
-  color: #322b2b;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 24px 24px 24px 24px;
 }
 
 /* width */

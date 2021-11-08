@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import img1 from "../../assets/img/facebook-icon.png";
 import img2 from "../../assets/img/search-icon.png";
+import img3 from "../../assets/img/soldier.png";
 
 const Header = () => {
   return (
@@ -36,6 +37,7 @@ const Header = () => {
         <h3 className="t-line">OF THE BOX</h3>
         <button>READ MORE</button>
       </main>
+      <img className="soldier" src={img3} alt="soldier" />
     </div>
   );
 };
