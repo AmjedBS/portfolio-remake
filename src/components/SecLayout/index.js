@@ -1,6 +1,6 @@
 import img from "../../assets/img/computer.png";
 
-const About = () => {
+const SecLayout = () => {
   return (
     <div className="body">
       <div className="partO">
@@ -24,4 +24,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SecLayout;
