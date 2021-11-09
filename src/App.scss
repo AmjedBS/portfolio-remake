@@ -1,5 +1,7 @@
 @use "./components/Header/header";
 @use "./components/SecLayout/secLayout";
+@use "./components/Button/button";
+
 .App {
   display: flex;
   flex-direction: column;

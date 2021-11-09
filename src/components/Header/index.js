@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../Button";
 import img1 from "../../assets/img/facebook-icon.png";
 import img2 from "../../assets/img/search-icon.png";
 import img3 from "../../assets/img/soldier.png";
@@ -35,7 +36,7 @@ const Header = () => {
         <h1 className="f-line">THINK</h1>
         <h2 className="s-line">OUTSIDE</h2>
         <h3 className="t-line">OF THE BOX</h3>
-        <button>READ MORE</button>
+        <Button text="READ MORE" className="button rounded" />
         <img className="soldier" src={img3} alt="soldier" />
       </main>
     </div>

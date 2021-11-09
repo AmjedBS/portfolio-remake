@@ -1,3 +1,4 @@
+import Button from "../Button";
 import img from "../../assets/img/computer.png";
 
 const SecLayout = () => {
@@ -14,7 +15,7 @@ const SecLayout = () => {
           amet porttitor libero. Mauris facilisis nibh vel nisi vestibulum, quis
           auctor enim pretium.
         </span>
-        <button>READ MORE</button>
+        <Button text="READ MORE" className="button rounded bg-red" />
       </div>
       <div className="partT">
         <img className="computer" src={img} alt="computer" />
