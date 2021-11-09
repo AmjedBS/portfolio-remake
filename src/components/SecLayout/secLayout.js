@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import img from "../../assets/img/computer.png";
 
 const About = () => {
   return (
     <div className="body">
-      <div className="navbar">
+      <div className="partO">
         <span className="title">Who we are </span>
         <span className="describ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
@@ -16,11 +17,10 @@ const About = () => {
         </span>
         <button>READ MORE</button>
       </div>
-      <img
-        className="computer"
-        src="../../assets/img/computer.png"
-        alt="computer"
-      />
+      <div className="partT">
+        <img className="computer" src={img} alt="computer" />
+        <span className="triangle"></span>
+      </div>
     </div>
   );
 };

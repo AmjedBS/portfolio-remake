@@ -1,26 +1,66 @@
-.navbar {
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  width: 100%;
-  height: 720px;
-  background-image: url(../../assets/img/mdina.jpg);
-  background-position: center;
-  box-shadow: 0 0 0 2000px inset #fff3f4;
-  color: rgb(0, 0, 0);
+@font-face {
+  font-family: "Work Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
 }
-button {
-  background-color: #ffffff;
-  border: none;
-  color: #322b2b;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 0;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 25px 25px 25px 25px;
-  font-weight: bold;
+.body {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 540px;
+  & > .partO {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 720px;
+    color: #444549;
+    align-items: center;
+    .title {
+      font-size: 54px;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-right: 215px;
+    }
+    .describ {
+      font-size: 13.5px;
+      font-weight: bold;
+      width: 415px;
+      text-align: justify;
+      margin-bottom: 40px;
+      margin-top: 30px;
+    }
+    & > button {
+      background-color: #c21826;
+      border: none;
+      color: #ffffff;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 0;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 25px 25px 25px 25px;
+      font-weight: bold;
+    }
+  }
+  & > .partT {
+    position: relative;
+    display: flex;
+    & > .computer {
+      width: auto;
+      height: 400px;
+      z-index: 0;
+    }
+    & > .triangle {
+      position: absolute;
+      background-color: #080c0f;
+      width: 250%;
+      height: 620px;
+      z-index: -1;
+      clip-path: polygon(50% 100%, 0 0, 100% 0);
+      right: -380px;
+      border-top: 3px solid;
+    }
+  }
 }

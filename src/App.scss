@@ -1,5 +1,5 @@
 @use "./components/Header/header";
-
+@use "./components/SecLayout/secLayout";
 .App {
   display: flex;
   flex-direction: column;
